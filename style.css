@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #0D0A10;
+}
+
+#navigation {
+    height: 144px;
+    width: 100%;
+
+    background-color: #DBCDE4;
+}
+
+#logo {
+    height: 44px;
+    width: 37px;
+}
+
+#buildButton {
+    height: 44px;
+    width: 134px;
+    background-color: #0D0A10;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 12px;
+}
+
+p {
+    color: #DBCDE4;
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#compass {
+    color: #DBCDE4;
+    font-size: 20px;
+}
