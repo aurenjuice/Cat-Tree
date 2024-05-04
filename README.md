@@ -3,4 +3,5 @@ Modular Cat Play Area Building Website
 
 fontawesome folder location
 
-C:\Program Files
+Name: font-awesome-4.7.0
+Location: C:\Program Files
