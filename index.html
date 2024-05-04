@@ -9,7 +9,7 @@
         
         <script src="https://kit.fontawesome.com/f028e2ccc3.js" crossorigin="anonymous"></script>
     </head>
-    <body id="mainBody" onload = "startTimer()">
+    <body id="mainBody" onload="startTimer();">
         <div id="navigation">
             <!-- animated logo -->
             <div id="logoDiv">
@@ -36,11 +36,17 @@
             </div>
 
             <!-- profile button -->
-            <i class="fa-solid fa-circle-user"></i>
+            <i id="profileButton" class="fa-solid fa-circle-user"></i>
 
             <!-- shopping cart -->
-            <i class="fa-solid fa-bag-shopping"></i>
+            <i id="cartButton" class="fa-solid fa-bag-shopping"></i>
         </div>
+        
+        <div id="test">
+            <img id="testLogo" src="Images/cat0.png">
+        </div>
+
+        <script src="testScript.js"></script>
     </body>
 
     <script src="script.js"></script>

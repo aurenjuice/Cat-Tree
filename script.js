@@ -42,8 +42,7 @@ function blink() {
                 if(y != 0) { //eyes have not finished opening
                     y--;
                     document.getElementById("logo").src = images[y];
-                } else {
-                    //eyes are open
+                } else { //eyes are open
                     if(xWait != 0) {
                         xWait--;
                     } else {

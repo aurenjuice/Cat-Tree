@@ -131,3 +131,44 @@ i {
     height: 50px;
     width: 50px;
 }
+
+#profileButton {
+    height: 44px;
+    width: 44px;
+
+    font-size: 44px;
+    color: #0D0A10;
+
+    margin: 25px;
+}
+
+#cartButton {
+    height: 44px;
+    width: 44px;
+    
+    font-size: 44px;
+    color: #0D0A10;
+
+    margin: 25px;
+}
+
+#test {
+    position: relative;
+    left: 200px;
+    top: 200px;
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #DBCDE4;
+}
+
+#testLogo {
+    height: 44px;
+    width: 37px;
+
+    scale: 3;
+}
