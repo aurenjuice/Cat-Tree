@@ -106,6 +106,25 @@ i {
     outline: 0;
 }
 
+#glassHighlight {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 0;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+    background-color: #DBCDE4;
+
+    right: 0px;
+    top: 0px;
+    height: 44px;
+    width: 44px;
+}
+
 #glass {
     position: absolute;
     display: flex;
@@ -117,6 +136,8 @@ i {
     top: -3px;
     height: 50px;
     width: 50px;
+
+    color: #DBCDE4;
 }
 
 #cancelSearch {
@@ -150,25 +171,4 @@ i {
     color: #0D0A10;
 
     margin: 25px;
-}
-
-#test {
-    position: relative;
-    left: 200px;
-    top: 200px;
-    width: 200px;
-    height: 200px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-color: #DBCDE4;
-}
-
-#testLogo {
-    height: 44px;
-    width: 37px;
-
-    scale: 3;
 }
