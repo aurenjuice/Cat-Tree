@@ -1,17 +1,23 @@
+:root {
+    --darker: #0D0A10;
+    --lighter: #DBCDE4;
+}
+
 body {
     margin: 0;
-    background-color: #0D0A10;
+    background-color: var(--darker);
 }
 
 #navigation {
-    width: 100%;
+    width: auto;
 
-    background-color: #DBCDE4;
+    background-color: var(--lighter);
 
     display: flex;
     flex-direction: row;
     justify-content: left;
     padding: 25px;
+    margin: 0;
 }
 
 #logoDiv {
@@ -25,8 +31,7 @@ body {
 
 #buildButton {
     height: 44px;
-    width: 134px;
-    background-color: #0D0A10;
+    background-color: var(--darker);
     border-radius: 10px;
 
     display: flex;
@@ -40,20 +45,20 @@ body {
 }
 
 p {
-    color: #DBCDE4;
+    padding-right: 12px;
+    color: var(--lighter);
     font-size: 20px;
     font-family: 'JetBrains Mono', monospace;
 }
 
 i {
-    color: #DBCDE4;
+    color: var(--lighter);
     font-size: 20px;
 }
 
 #browseButton {
     height: 44px;
-    width: 200px;
-    background-color: #0D0A10;
+    background-color: var(--darker);
     border-radius: 10px;
 
     display: flex;
@@ -69,11 +74,13 @@ i {
 #searchBar {
     position: relative;
     height: 44px;
-    width: 994px;
-    background-color: #0D0A10;
+    /* width: 994px; */
+    width: 400px;
+    background-color: var(--darker);
     border-radius: 10px;
 
     display: flex;
+    flex-grow: 1;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -86,18 +93,20 @@ i {
 #search {
     position: absolute;
     left: -3px;
+    right: -3px;
     height: 50px;
-    width: 1000px;
-    background-color: #0D0A10;
+
+    background-color: var(--darker);
     border-radius: 10px;
     border: 0;
     margin: 0;
     padding-left: 13;
-    color: #DBCDE4;
+    color: var(--lighter);
     font-size: 20px;
     font-family: 'JetBrains Mono', monospace;
 
     display: flex;
+    flex-grow: 1;
     align-items: center;
 }
 
@@ -117,7 +126,7 @@ i {
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
 
-    background-color: #DBCDE4;
+    background-color: var(--lighter);
 
     right: 0px;
     top: 0px;
@@ -137,7 +146,7 @@ i {
     height: 50px;
     width: 50px;
 
-    color: #DBCDE4;
+    color: var(--lighter);
 }
 
 #cancelSearch {
@@ -158,7 +167,7 @@ i {
     width: 44px;
 
     font-size: 44px;
-    color: #0D0A10;
+    color: var(--darker);
 
     margin: 25px;
 }
@@ -168,7 +177,25 @@ i {
     width: 44px;
     
     font-size: 44px;
-    color: #0D0A10;
+    color: var(--darker);
 
     margin: 25px;
+}
+
+.featuredItemDiv {
+    margin: 50px;
+    height: 50vh;
+
+    padding: 25px;
+
+    border: 3px dashed var(--lighter);
+    background-color: var(--darker);
+}
+
+.featuredImage {
+    margin: none;
+    height: 100%;
+    aspect-ratio: 1;
+
+    background-color: var(--lighter);
 }

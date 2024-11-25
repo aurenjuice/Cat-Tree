@@ -128,7 +128,7 @@ if(logo != null) {
     logo.addEventListener("mouseover", function() { //hovering over logo
         isHovering = true;
     });
-
+    
     logo.addEventListener("mouseleave", function() { //no longer hovering over logo
         isHovering = false;
     });
